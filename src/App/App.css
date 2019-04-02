@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Titillium Web, sans-serif;
+}
+header{
+  background-color: #204e5F
+  
+}
+h2{
+  margin:0;
+  padding: 50px;
+  color: #EDF7F7;
+  font-weight: 700;
+}
+.list-controls{
+  background-color: #b7D7D8;
+  margin: 0;
+}
+button{
+  margin: 20px;
+}
+.input-form{
+  background-color: #FF8984;
+}
+form{
+  padding: 40px;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  flex-basis: 15%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC6a8;
+  border: 1px solid #FF8984;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+input[type="checkbox"]{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+input[type="submit"]{
+  background-color: #FFC6a8;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+input[type="text"]{
+  background-color: #FFC6a8;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+button{
+  background-color:  #204e5F;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+/* Main CSS */
